@@ -1,11 +1,12 @@
 ## 飞鱼(FlyFish)组件及模板库
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-##### FlyFishComponents 是数据可视化编排平台 FlyFish 的组件模版中心，这里存放在目前 FlyFish 所有开源组件，欢迎广大开发者踊提交 PR，贡献新的组件。您所贡献的每一行代码都将鼓舞每一位 FlyFish 核心开发者，这是我们持续开源的动力。
+**FlyFishComponents 是数据可视化编排平台 FlyFish 的组件模版中心，这里存放在目前 FlyFish 所有开源组件，欢迎广大开发者踊提交 PR，贡献新的组件。您所贡献的每一行代码都将鼓舞每一位 FlyFish 核心开发者，这是我们持续开源的动力。**
 
-##### 组件说明
+### 组件说明
 
 ```
 Component1 // 组件名称目录
@@ -27,7 +28,7 @@ Component1 // 组件名称目录
     └── setting.js
 ```
 
-##### describe.json 结构说明
+### describe.json 结构说明
 
 ```
 {
@@ -40,36 +41,36 @@ Component1 // 组件名称目录
 }
 ```
 
-##### thumbnail 结构说明
+### thumbnail 结构说明
 
 - 此目录结构存放 图片及缩略预览图
 - 将路径配置到 对应 describe.json 的 iconUrl 中
 
 ### 贡献指南
 
-#### 部署 FlyFish
+#### 一、部署 FlyFish
 
 在开发组件前，您需要先部署 FlyFish，目前最新版本为 3.0，您可以切换到 master 分支，下载相关代码并部署，FlyFish 代码仓库如下所示
 
 - https://github.com/CloudWise-OpenSource/FlyFish
 - https://gitee.com/Cloudwise/fly-fish
 
-#### 部署流程：
+#### 二、部署流程：
 
 - [FlyFish3.0 部署文档 GitHub](https://github.com/CloudWise-OpenSource/FlyFish/tree/master/doc)
 - [FlyFish3.0 部署文档 Gitee](https://gitee.com/CloudWise/fly-fish/tree/master/doc)
 
-### 组件源码导入
+#### 三、组件源码导入
 
 components文件夹任意组件下同名zip包下载后，可直接到FlyFish组件列表中导入源码。
 
-### 组件开发规范
+#### 四、组件开发规范
 
 组件开发规范文档可以帮助您在进行组件开发过程中减少一些常见错误，在您正式开发组件前，请一定要阅读此文档。
 
 - [组件开发规范文档](./docs/组件开发规范.md)
 
-### 如何提 PR
+#### 五、如何提 PR
 
 您可以通过此文档，了解如何提 PR，以及提 PR 时一些注意事项，希望对您有所帮助
 
@@ -108,7 +109,7 @@ git clone ${私有组件仓库地址}
 
 ```
 
-> 制作上传组件压缩包
+制作上传组件压缩包
 
 ```bash
 ### 切换组件仓库到main分支
